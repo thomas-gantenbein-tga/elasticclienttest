@@ -6,7 +6,7 @@ public class ActionListener implements org.elasticsearch.action.ActionListener<I
 
 	@Override
 	public void onFailure(Exception arg0) {
-		System.out.println("failure");
+		System.out.println("failure!");
 
 	}
 
